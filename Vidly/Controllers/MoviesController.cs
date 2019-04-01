@@ -23,5 +23,13 @@ namespace Vidly.Controllers
 
             return View(movies);
         }
+
+
+        public ActionResult Details(int id)
+        {
+            var movie = _context.Movies.SingleOrDefault(m => m.Id == id);
+
+            return View(movie);
+        }
     }
 }
