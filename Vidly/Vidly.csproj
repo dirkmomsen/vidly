@@ -221,6 +221,18 @@
     <Compile Include="Migrations\201904010014076_CustomerBirthdateIsNullable.Designer.cs">
       <DependentUpon>201904010014076_CustomerBirthdateIsNullable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904010027410_AddPropertiesToMovie.cs" />
+    <Compile Include="Migrations\201904010027410_AddPropertiesToMovie.Designer.cs">
+      <DependentUpon>201904010027410_AddPropertiesToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904010031370_AddedRequiredToNameGenreOfMovie.cs" />
+    <Compile Include="Migrations\201904010031370_AddedRequiredToNameGenreOfMovie.Designer.cs">
+      <DependentUpon>201904010031370_AddedRequiredToNameGenreOfMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904010033085_PopulateMoviesTable.cs" />
+    <Compile Include="Migrations\201904010033085_PopulateMoviesTable.Designer.cs">
+      <DependentUpon>201904010033085_PopulateMoviesTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -340,6 +352,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904010014076_CustomerBirthdateIsNullable.resx">
       <DependentUpon>201904010014076_CustomerBirthdateIsNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904010027410_AddPropertiesToMovie.resx">
+      <DependentUpon>201904010027410_AddPropertiesToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904010031370_AddedRequiredToNameGenreOfMovie.resx">
+      <DependentUpon>201904010031370_AddedRequiredToNameGenreOfMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904010033085_PopulateMoviesTable.resx">
+      <DependentUpon>201904010033085_PopulateMoviesTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
