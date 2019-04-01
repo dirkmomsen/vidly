@@ -13,7 +13,9 @@ namespace Vidly.Models
         [Required]
         [StringLength(255)]
         public string Name { get; set; }
-        public bool IsSubscribedToCustomer { get; set; }
+        public bool IsSubscribedToNewsletter { get; set; } //this should be IsSubscribedToNewsletter
+
+        [Display(Name = "Date of Birth")] //not ideal because you have to recompile to change a tag
         public DateTime? Birthdate { get; set; }
         public MembershipType MembershipType { get; set; }
         public byte MembershipTypeId { get; set; }
