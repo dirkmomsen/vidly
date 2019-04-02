@@ -7,7 +7,14 @@
 
 <h2>Movies</h2>
 
-@Html.ActionLink("New Movie", "New", "Movies", new { @class = "btn btn-primary" })
+<p>
+    @Html.ActionLink(
+        "New Movie", 
+        "New", 
+        "Movies", 
+        new {@class = "btn btn-primary"})
+</p>
+
 
 @if (@Model.Any())
 {
