@@ -39,10 +39,13 @@
                 },
                 columns: [
                     {
-                        data: "name"
+                        data: "name",
+                        render: function(data, type, movie) {
+                            return "<a href='/movies/edit/" + movie.id + "'>" + movie.name + "</a>";
+                        }
                     },
                     {
-                        data: "genre.name",
+                        data: "genre.name"
                     }/*,
                     {
                         data: "id",
