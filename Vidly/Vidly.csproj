@@ -289,6 +289,10 @@
     <Compile Include="Migrations\201904012213430_ChangedIsSubscribedToNewsLetterProperty.Designer.cs">
       <DependentUpon>201904012213430_ChangedIsSubscribedToNewsLetterProperty.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904072310243_SeedUsers.cs" />
+    <Compile Include="Migrations\201904072310243_SeedUsers.Designer.cs">
+      <DependentUpon>201904072310243_SeedUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -625,6 +629,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904012213430_ChangedIsSubscribedToNewsLetterProperty.resx">
       <DependentUpon>201904012213430_ChangedIsSubscribedToNewsLetterProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904072310243_SeedUsers.resx">
+      <DependentUpon>201904072310243_SeedUsers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
