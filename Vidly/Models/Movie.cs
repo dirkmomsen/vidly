@@ -23,6 +23,10 @@ namespace Vidly.Models
         [Range(1, 20)]
         public short NumberInStock { get; set; }
 
+        [Display(Name = "Number Available")]
+        [Range(1,20)]
+        public short NumberAvailable { get; set; }
+
         public Genre Genre { get; set; }
 
         [Display(Name = "Genre")]

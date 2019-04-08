@@ -24,10 +24,13 @@ namespace Vidly.Controllers.Api
         {
             var customer = _context.Customers.Single(c => c.Id == newRental.CustomerId);
 
-            var movies = _context.Movies.Where(m => newRental.movieIds.Contains(m.Id));
+            var movies = _context.Movies
+                .Where(m => newRental.movieIds.Contains(m.Id));
 
             foreach (var movie in movies)
             {
+                movie.NumberAvailable--;
+
                 var rental = new Rental()
                 {
                     Customer = customer,
