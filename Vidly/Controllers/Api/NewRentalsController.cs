@@ -11,7 +11,7 @@ namespace Vidly.Controllers.Api
     public class NewRentalsController : ApiController
     {
         [HttpPost]
-        public IHttpActionResult AddRental(NewRentalDto newRental)
+        public IHttpActionResult CreateNewRental(NewRentalDto newRental)
         {
             throw new NotImplementedException();
         }
