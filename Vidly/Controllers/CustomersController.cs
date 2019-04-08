@@ -26,9 +26,6 @@ namespace Vidly.Controllers
         // GET: Customers
         public ActionResult Index()
         {
-/*            var customers = _context.Customers.Include(c => c.MembershipType).ToList(); //This will immediately call query. Remove .ToList() to only call query when data is used
-
-            return View(customers);*/
             return View();
         }
 
