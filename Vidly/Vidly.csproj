@@ -320,6 +320,10 @@
     <Compile Include="Migrations\201904080033538_AddPhoneToApplicatinUser.Designer.cs">
       <DependentUpon>201904080033538_AddPhoneToApplicatinUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904082159478_AddRentalsTable.cs" />
+    <Compile Include="Migrations\201904082159478_AddRentalsTable.Designer.cs">
+      <DependentUpon>201904082159478_AddRentalsTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -330,6 +334,7 @@
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\Rental.cs" />
     <Compile Include="Models\RoleName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -670,6 +675,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904080033538_AddPhoneToApplicatinUser.resx">
       <DependentUpon>201904080033538_AddPhoneToApplicatinUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904082159478_AddRentalsTable.resx">
+      <DependentUpon>201904082159478_AddRentalsTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
